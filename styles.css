@@ -1,0 +1,115 @@
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
+  }
+  
+  body {
+    font-family: "Jost", "Roboto", sans-serif;
+    background: linear-gradient(270deg, #cdf7f2, #82ebe0, #859cd1);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 27s ease infinite;
+    -moz-animation: AnimationName 27s ease infinite;
+    -o-animation: AnimationName 27s ease infinite;
+    animation: AnimationName 27s ease infinite;
+
+    
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  
+
+  .container {
+      flex: 0.9;
+      display: grid;
+      grid-template-columns: [first] 25% [line2] 60% [end]; 
+      grid-column-gap: 70px;
+      padding-top: 100px
+  }
+
+  .sidebar {
+      position: -webkit-sticky;
+      position: sticky;
+      height: 25vh;
+      top: 100px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end
+  }
+
+  .sidebar-item {
+      width: 100%
+  }
+
+  .CV {
+    height: auto
+  }
+
+  .sidebar,
+  .CV {
+      background-color: #fff;
+      padding: 30px;
+      
+  }
+
+  .icon-link {
+      text-decoration: none;
+  }
+
+  .technologies {
+      display: grid;
+      grid-template-columns: [first] 45% [line2] 45% [end]; 
+      grid-column-gap: 20px;
+
+  }
+
+
+
+
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @-moz-keyframes AnimationName {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @-o-keyframes AnimationName {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @keyframes AnimationName {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
