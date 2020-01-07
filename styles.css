@@ -37,22 +37,23 @@ html {
       top: 100px;
       display: flex;
       flex-wrap: wrap;
-      align-items: flex-end
+      align-items: flex-end;
+      padding: 30px
   }
 
   .sidebar-item {
-      width: 100%
+      width: 100%;
+      
   }
 
   .CV {
-    height: auto
+    height: auto;
+    padding: 70px
   }
 
   .sidebar,
   .CV {
       background-color: #fff;
-      padding: 30px;
-      
   }
 
   .icon-link {
