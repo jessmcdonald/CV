@@ -33,12 +33,12 @@ html {
   .sidebar {
       position: -webkit-sticky;
       position: sticky;
-      height: 35vh;
+      height: auto;
       top: 100px;
       display: flex;
       flex-wrap: wrap;
       align-items: flex-end;
-      padding: 30px
+      padding: 60px
   }
 
   .sidebar-item {
