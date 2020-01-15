@@ -37,7 +37,7 @@ html {
   .sidebar {
       position: -webkit-sticky;
       position: sticky;
-      height: 35vh;
+      height: 30vh;
       top: 100px;
       display: flex;
       flex-wrap: wrap;
